@@ -20,7 +20,8 @@ RSpec.describe IpAddress, '#tls' do
       ['aba[baba]ttt', true],
       # ['zaz[zaza]abc', true],
       # ['zaz[zaz]abc[aza]', true],
-      ['nqwjdcnwfxkdglllft[gbawkxvzhyiprfenf]ysybkzwywpqwerm[cwsthmeytiuialllzxx]plcctxffnigyhdfmndc[kyyvjcfkxfofxfsrw]cwynasabqneione', false]
+      ['nqwjdcnwfxkdglllft[gbawkxvzhyiprfenf]ysybkzwywpqwerm[cwsthmeytiuialllzxx]plcctxffnigyhdfmndc[kyyvjcfkxfofxfsrw]cwynasabqneione', false],
+      ['ekjkjgeqmtcyvzdtrkx[asoaxjekjkjfqkvuk]oyvvwomlasdiibeagw[djscotiumstgsczfd]cntrhytcawjicaljxzh', true]
     ]
   end
 
