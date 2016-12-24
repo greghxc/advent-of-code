@@ -12,6 +12,7 @@ end
 
 def part_two
   elephant = Elephant.new(3018458)
+  # elephant = Elephant.new(100)
   puts elephant.steal_circle
 end
 
